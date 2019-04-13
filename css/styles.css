@@ -1,0 +1,73 @@
+/* navbar styles */
+.my-navbar,
+footer {
+    background:rgb(255, 158, 207);
+}
+.hide-logo {
+    display: none;
+}
+@media (min-width:992px) {
+    .hide-logo {
+        display: inline-block;
+    }
+}
+
+/* rainbow catering link styles */
+.large-link a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(110, 253, 110);
+}
+.large-link a:hover {
+    background: -webkit-linear-gradient(rgb(255, 238, 0)30%, rgb(72, 233, 72) 10%, rgb(54, 165, 255), rgb(88, 0, 88) 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.glow {
+    background: -webkit-linear-gradient(rgb(255, 238, 0)30%, rgb(72, 233, 72) 10%, rgb(54, 165, 255), rgb(88, 0, 88) 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 1px rgba(70, 12, 12, 0.459);
+}
+
+/* header styles */
+body {
+    background: linear-gradient(rgb(245, 209, 227) 20%, rgb(224, 159, 208) 100%) no-repeat;
+}
+.my-header {
+    background-color: rgb(234, 124, 238);
+    width: 100%;
+}
+.dot {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.dot-solid { 
+    background-image: url(../img/png/single-black-hole.png);
+    background-size: 130%;
+}
+.dot-stroke { 
+    background-image: url(../img/png/single-white-hole.png);
+    background-size: 130%;
+}
+
+/* card styles */
+.card-badge {
+    background: rgb(206, 206, 206);
+    font-size: 1.1rem;
+    color: rgb(83, 79, 138);
+    box-shadow: 0 2px 2px rgb(0, 0, 0);
+}
+.card-badge:hover {
+    background: rgb(110, 106, 106);
+    color: rgb(166, 163, 207);
+}
+
+/* create a doughnut */
+#canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
