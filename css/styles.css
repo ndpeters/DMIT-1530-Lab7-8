@@ -45,11 +45,11 @@ body {
     display: inline-block;
 }
 .dot-solid { 
-    background-image: url(../img/png/single-black-hole-min.png);
+    background-image: url(../img/webp/single-black-hole-min.webp);
     background-size: 130%;
 }
 .dot-stroke { 
-    background-image: url(../img/png/single-white-hole-min.png);
+    background-image: url(../img/webp/single-white-hole-min.webp);
     background-size: 130%;
 }
 
