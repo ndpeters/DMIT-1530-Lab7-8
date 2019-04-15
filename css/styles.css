@@ -44,12 +44,20 @@ body {
     margin-bottom: 1rem;
     display: inline-block;
 }
-.dot-solid { 
+.webp .dot-solid { 
     background-image: url(../img/webp/single-black-hole-min.webp);
     background-size: 130%;
 }
-.dot-stroke { 
+.webp .dot-stroke { 
     background-image: url(../img/webp/single-white-hole-min.webp);
+    background-size: 130%;
+}
+.no-webp .dot-solid { 
+    background-image: url(../img/png/single-black-hole-min.png);
+    background-size: 130%;
+}
+.no-webp .dot-stroke { 
+    background-image: url(../img/png/single-white-hole-min.png);
     background-size: 130%;
 }
 
