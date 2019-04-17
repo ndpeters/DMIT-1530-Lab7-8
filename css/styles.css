@@ -6,7 +6,7 @@ footer {
 .hide-logo {
     display: none;
 }
-@media (min-width:1134px) {
+@media (min-width:1140px) {
     .hide-logo {
         display: inline-block;
     }
